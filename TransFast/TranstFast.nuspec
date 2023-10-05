@@ -8,11 +8,11 @@
         <owners>Hamza zeryouh</owners>
         <description>I am développeur technologie microsoft</description>
         <projectUrl>https://github.com/hamzazeryouh/TransFast.git</projectUrl>
-        <iconUrl>https://github.com/hamzazeryouh/TransFast.git/main/transfast.png</iconUrl>
-        <licenseUrl>https://github.com/yourusername/your-translation-service/blob/main/LICENSE.txt</licenseUrl>
+        <iconUrl>https://github.com/hamzazeryouh/TransFast/blob/master/TransFast/main/transfast.png</iconUrl>
+        <licenseUrl>https://github.com/hamzazeryouh/TransFast/blob/master/TransFast/main/LICENSE.txt</licenseUrl>
     </metadata>
     <files>
-        <file src="bin\Release\netstandard2.0\YourTranslationService.dll" target="lib\netstandard2.0" />
+        <file src="bin\Release\netstandard2.0\TranstFast.dll" target="lib\netstandard2.0" />
     </files>
 </package>
 
