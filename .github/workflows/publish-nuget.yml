@@ -1,0 +1,32 @@
+name: Publish NuGet Package
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.x
+
+      - name: Restore dependencies and build
+        run: dotnet build
+
+      - name: Publish NuGet package
+        run: dotnet pack -c Release -o ./nupkg
+
+      - name: Publish to NuGet
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./nupkg/*.nupkg
+        env:
+          GITHUB_TOKEN: ${{ secrets..GITHUB_TOKEN }}
