@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TransFast
+namespace TransFast.LanguageService
 {
-    public class LanguageService:ILanguageService
+    public class LanguageService : ILanguageService
     {
         private string _currentLanguage = "en-US"; // Default to English
 

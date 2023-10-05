@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using TransFast.LanguageService;
 
-namespace TransFast
+namespace TransFast.TranslationService
 {
-    public class TranslationService :ITranslationService
+    public class TranslationService : ITranslationService
     {
         private readonly string _translationsPath;
         private readonly ILanguageService _languageService;

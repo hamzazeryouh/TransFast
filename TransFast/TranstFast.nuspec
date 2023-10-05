@@ -7,8 +7,8 @@
         <authors>Hamza zeryouh</authors>
         <owners>Hamza zeryouh</owners>
         <description>I am développeur technologie microsoft</description>
-        <projectUrl>https://github.com/yourusername/your-translation-service</projectUrl>
-        <iconUrl>https://raw.githubusercontent.com/yourusername/your-translation-service/main/icon.png</iconUrl>
+        <projectUrl>https://github.com/hamzazeryouh/TransFast.git</projectUrl>
+        <iconUrl>https://github.com/hamzazeryouh/TransFast.git/main/transfast.png</iconUrl>
         <licenseUrl>https://github.com/yourusername/your-translation-service/blob/main/LICENSE.txt</licenseUrl>
     </metadata>
     <files>
